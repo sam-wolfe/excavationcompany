@@ -1,0 +1,48 @@
+.footer {
+    width: 100%;
+    height: 55vh;
+    background-color: #0E0E0E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    padding-top: 3rem;
+    /* background: linear-gradient(rgba(14,14,14,.97), rgba(14,14,14,.97)), url(./img/BEANS.jpg) no-repeat;
+    background-size: cover; */
+}
+
+.footer input, .footer textarea {
+    display: block;
+}
+
+.footerDeets {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    gap: 3rem;
+}
+
+.footerContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    gap: 4rem;
+}
+
+.footerFollow {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    gap: 1rem;
+}
+
+.footerLogos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}

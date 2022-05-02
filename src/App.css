@@ -2,3 +2,172 @@
 body {
     background-color: #0E0E0E;
 }
+
+.logo-bar {
+    height: 8rem;
+    background-color: rgb(224, 181, 38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-bar svg {
+    height: 6rem;
+}
+
+.logo-bar h1 {
+    font-size: 4rem;
+}
+
+.display-text {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    justify-content: right;
+    align-items: flex-end;
+    position: absolute;
+    z-index: 99;
+}
+
+.display-text > * {
+    margin-right: 9rem;
+    margin-bottom: 7rem;
+    background-color: rgb(244, 181, 38);
+    border: 1px solid rgb(244, 181, 38);
+    padding: 2rem 4rem 2rem 4rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    
+}
+
+.display-text > *:hover {
+    background-color: rgb(244, 171, 38);
+    border: 1px solid white;
+
+}
+
+
+.display-one {
+    background: url(./img/front_digger_compressed.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0 -300px;
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.display-two {
+    background: url(./img/frontloader_compressed.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0 -300px;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+.section {
+    min-height: 30vh;
+}
+
+.services {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-color: white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.services img {
+    width: 15%;
+}
+
+.services img:nth-child(1) {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+
+.services img:nth-child(3) {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.services > section {
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.about section {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.get-quote {
+    background-color: rgb(244, 181, 38);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.get-quote h1{
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    color: black;
+    font-size: 3rem;
+}
+
+.get-quote section {
+    margin-bottom: 5rem;
+}
+
+#get-quote {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.get-quote input, .get-quote textarea {
+    min-width: 40rem;
+    min-height: 3rem;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 2rem;
+}
+
+.get-quote textarea {
+    min-height: 15rem !important;
+}
+
+
+#get-quote button {
+    background-color: white;
+    border: 1px solid gray;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer
+}
