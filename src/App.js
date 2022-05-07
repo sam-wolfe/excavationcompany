@@ -3,7 +3,6 @@ import Logo from './Components/Logo/Logo';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Section/footer';
 import {useState, useEffect} from 'react';
-import CrossfadeImage from 'react-crossfade-image';
 import TitleParahraph from './Components/TitleParagraph/TitleParagraph';
 
 const aboutData = [
@@ -44,13 +43,6 @@ const servicesData = [
 function App() {
     
 
-    let imgIndex = 0;
-    const imgList = [
-        "https://wolfe.sfo3.cdn.digitaloceanspaces.com/front_digger_compressed.jpg",
-        "https://wolfe.sfo3.cdn.digitaloceanspaces.com/frontloader_compressed.jpg"
-    ];
-
-    const [url, setUrl] = useState(imgList[0]);
     const [opact, setOpact] = useState(100);
     const [flipped, setFlipped] = useState(false);
 
